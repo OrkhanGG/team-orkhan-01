@@ -1,6 +1,104 @@
+# ---------------------------------------------------------------------------
+# Build outputs (CMake / MSBuild / Ninja)
+# ---------------------------------------------------------------------------
+/build/
+/out/
+/cmake-build-*/
+/_build/
+/Debug/
+/Release/
+/x64/
+/Win32/
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+*.vcxproj.user
+
+# ---------------------------------------------------------------------------
+# Compiled binaries & intermediates
+# ---------------------------------------------------------------------------
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.gch
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+ipch/
+
+# ---------------------------------------------------------------------------
+# vcpkg (manifest installs land under build/; keep these for safety)
+# ---------------------------------------------------------------------------
+vcpkg_installed/
+.vcpkg-root
+vcpkg-manifest-install.log
+
+# ---------------------------------------------------------------------------
+# Visual Studio
+# ---------------------------------------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.aps
+*.ncb
+*.opendb
+
+# ---------------------------------------------------------------------------
+# JetBrains / VS Code / other IDEs
+# ---------------------------------------------------------------------------
 .idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+/_ReSharper.Caches/
+riderModule.iml
+*.swp
+*~
+.clangd/
+.cache/
+
+# ---------------------------------------------------------------------------
+# Packages / NuGet (legacy)
+# ---------------------------------------------------------------------------
+/packages/
+*.nupkg
+
+# ---------------------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ---------------------------------------------------------------------------
+# Logs & temp
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak

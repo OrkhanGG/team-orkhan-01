@@ -1,0 +1,53 @@
+# Normalize line endings; let Git decide on checkout for text files
+* text=auto eol=lf
+
+# Source & project config
+*.c   text eol=lf
+*.cc  text eol=lf
+*.cpp text eol=lf
+*.cxx text eol=lf
+*.h   text eol=lf
+*.hh  text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+*.inl text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+CMakePresets.json text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Windows scripts keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.bmp binary
+*.cur binary
+*.wav binary
+*.mp3 binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.pdf binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.pdb binary
+*.obj binary
+*.o binary
+*.a binary
+*.so binary
+*.dylib binary

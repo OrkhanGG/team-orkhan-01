@@ -1,0 +1,11 @@
+{
+  "name": "team-orkhan-01",
+  "version-string": "0.1.0",
+  "description": "wxWidgets desktop application",
+  "dependencies": [
+    {
+      "name": "wxwidgets",
+      "default-features": true
+    }
+  ]
+}
