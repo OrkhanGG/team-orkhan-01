@@ -6,6 +6,7 @@
     {
       "name": "wxwidgets",
       "default-features": true
-    }
+    },
+    "opencv"
   ]
 }

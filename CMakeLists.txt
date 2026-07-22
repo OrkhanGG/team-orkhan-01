@@ -13,6 +13,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(wxWidgets CONFIG REQUIRED)
+find_package(OpenCV REQUIRED)
 
 add_executable(team-orkhan-01 WIN32
     src/App.cpp
@@ -22,12 +23,14 @@ add_executable(team-orkhan-01 WIN32
 target_include_directories(team-orkhan-01
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/src
+        ${OpenCV_INCLUDE_DIRS}
 )
 
 target_link_libraries(team-orkhan-01
     PRIVATE
         wx::core
         wx::base
+        ${OpenCV_LIBS}
 )
 
 if(MSVC)
