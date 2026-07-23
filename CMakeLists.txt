@@ -17,7 +17,6 @@ find_package(OpenCV REQUIRED)
 
 add_executable(team-orkhan-01 WIN32
     src/App.cpp
-    src/MainFrame.cpp
 )
 
 target_include_directories(team-orkhan-01
